@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Color from './Color/Color'
 
 const Counter = () => {
     const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ const Counter = () => {
         <h2>{count}</h2>
         <button onClick={increaseValue}>Increase</button>
         <button onClick={decreaseValue}>Decrease</button>
+        <Color />
     </div>
     </div>
   )

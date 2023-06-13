@@ -13,10 +13,7 @@ const Color = () => {
             <h2>Button Count</h2>
             <button onClick={buttonCount}>I have clicked my button {count} times.</button>
         </div>
-    );
+    )
 }
 
-export default Color;
-
-
-onclick{Bacl}
+export default Color

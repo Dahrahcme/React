@@ -1,14 +1,14 @@
-import React from 'react';
-import Color from './Components/Color/Color';
+import Address from "./Component/Address/Address";
 
-
-const App = () => {
+function App() {
   return (
-    <div>
-      <Color />
+    <div className="App">
+      <address />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
 
