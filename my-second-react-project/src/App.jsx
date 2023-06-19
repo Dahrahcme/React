@@ -1,14 +1,15 @@
-import Address from "./Component/Address/Address";
+import React from 'react';
+import Counter from './Components/Counter';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <address />
+    <div>
+      <Counter />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
 
-
-
+ 
